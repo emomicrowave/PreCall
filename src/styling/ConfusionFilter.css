@@ -1,0 +1,42 @@
+.pmButtons{
+	margin-top: -2px;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.pmButton{
+	font-size: 25px !important;
+	font-weight: 100 !important;
+	height: 25px !important;
+	width: 25px !important;
+	padding: 0 !important;
+	background-color: white !important;
+	border: 1px solid black !important;
+	border-radius: 50% !important;
+	color: black !important;
+}
+
+.pmButton1{
+}
+
+.pmButton2{
+}
+
+.pmButton1 > p {
+	margin-top: -8px !important;
+}
+
+.pmButton2 > p {
+	margin-top: -5.5px !important;
+}
+
+.pmButton:hover{
+	border-color: lightgrey !important;
+	color: lightgrey !important;
+}
+
+.greyButton{
+	pointer-events:none;
+	color: rgba(0,0,0,0.3) !important;
+	border: 1px solid rgba(0,0,0,0.3) !important;
+}

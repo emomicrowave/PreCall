@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial !important;
+}
+
+html{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+#root{
+	width: 100%;
+	height: 100%;
+}
+
+.App {
+	min-height: 100%;
+	width: 100%;
+	/*position: relative;*/
+	text-align: center;
+}
+
+#MainMenu{
+	background-color: #006699;
+}
+
+div.header.item.MenuItem{
+	color: white;
+}
+
+a.active.item{
+	color: white !important;
+}
+
+a.item{
+	color: white !important;
+}
+
+.Header {
+	flex: 1;
+	background-color: #cfcfcf;
+}
+
+#HeaderLogo{
+	margin-right: 10px;
+	background-color: white;
+}
+
+/*006699; 339966; 990000*/
+
+.Content{
+	flex: 2;
+	width: 1650px;
+	background-color: white;
+	margin: 40px auto;
+	margin-bottom: 0;
+	margin-top: 20px;
+	/*min-height: 800px;*/
+	padding: 30px;
+	border-radius: 7px;
+}
+
+/*.Footer{
+	flex: 3;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-image: linear-gradient(#82b4cd,#006699);
+	padding: 20px;
+}
+
+.FooterLinks{
+	margin: 40px;
+	color: white;
+}
+
+.FooterLinks:hover{
+	color: #990000;
+}*/

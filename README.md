@@ -1,12 +1,30 @@
-# PreCall
-![alt text](./iterationFinal2.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-PreCall examines ORES, Wikimedia's Machine Learning service for quality control, and helps users determine metrics settings and decision thresholds tailored to their personal requirements, as those vary on a case-to-case basis.
-PreCall currently makes use of english Wikipedia and the ORES damaging model, that predicts a damaging probability score for every edit on a wiki.
+# PreCall Extended
 
-PreCall is a react javascript prototype. Use the (i) button in the top right corner for a quick guide on how to use the interface.
+![Final Layout](documentation/interface_final.png)
 
-Read more here:
-https://ores.wikimedia.org/
-https://blog.wikimedia.org/2015/11/30/artificial-intelligence-x-ray-specs/
-https://meta.wikimedia.org/wiki/Objective_Revision_Evaluation_Service/damaging
+### Prerequisites
+
+- You need to have `npm` installed.
+
+### Installation and running
+
+- Clone the repository
+- run `npm install`
+- run `npm start`
+- go to `localhost:3000`
+
+Alternatively the App can be found on heroku under https://stark-journey-35616.herokuapp.com/.
+
+**Note:** Often the heroku App returns an error on the first run. If that is the case, refresh
+the page once or twice. The App works.
+
+
+### What is PreCall Extended
+
+This is a fork of [tguelenman/PreCall](https://github.com/tguelenman/PreCall) and it is a visual interface 
+for threshold optimization for binary machine learning classifiers. More specifically it visualizes the 
+statistical data of the "damaging" model of Wikimedia's [ORES](https://ores.wikimedia.org/). The data consits
+of multiple thresholds and the classifier's performance for each of them. Interacting with the components will
+let you explore the dataset and see how the classifier behaves.
